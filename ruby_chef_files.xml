@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filetype binary="false" default_extension="" description="syntax highlighting for ruby chef files" name="ruby_chef_files">
+    <highlighting>
+        <options>
+            <option name="LINE_COMMENT" value="#" />
+            <option name="COMMENT_START" value="=begin" />
+            <option name="COMMENT_END" value="=end" />
+            <option name="HEX_PREFIX" value="" />
+            <option name="NUM_POSTFIXES" value="" />
+            <option name="HAS_BRACKETS" value="true" />
+            <option name="HAS_BRACES" value="true" />
+            <option name="HAS_PARENS" value="true" />
+            <option name="HAS_STRING_ESCAPES" value="true" />
+            <option name="LINE_COMMENT_AT_START" value="false" />
+        </options>
+        <keywords ignore_case="false">
+            <keyword name="BEGIN" />
+            <keyword name="END" />
+            <keyword name="begin" />
+            <keyword name="class" />
+            <keyword name="def" />
+            <keyword name="do" />
+            <keyword name="else" />
+            <keyword name="elseif" />
+            <keyword name="end" />
+            <keyword name="ensure" />
+            <keyword name="module" />
+            <keyword name="then" />
+            <keyword name="undef" />
+        </keywords>
+        <keywords2>
+            <keyword name="\case" />
+            <keyword name="alias" />
+            <keyword name="and" />
+            <keyword name="break" />
+            <keyword name="defined?" />
+            <keyword name="for" />
+            <keyword name="if" />
+            <keyword name="next" />
+            <keyword name="redo" />
+            <keyword name="rescue" />
+            <keyword name="retry" />
+            <keyword name="return" />
+            <keyword name="super" />
+            <keyword name="unless" />
+            <keyword name="until" />
+            <keyword name="when" />
+            <keyword name="while" />
+            <keyword name="yield" />
+        </keywords2>
+        <keywords3>
+            <keyword name="false" />
+            <keyword name="nil" />
+            <keyword name="not" />
+            <keyword name="or" />
+            <keyword name="self" />
+            <keyword name="true" />
+        </keywords3>
+        <keywords4>
+            <keyword name="__ENCODING__" />
+            <keyword name="__END__" />
+            <keyword name="__FILE__" />
+            <keyword name="__LINE__" />
+        </keywords4>
+    </highlighting>
+    <extensionMap>
+        <mapping ext="erb" />
+        <mapping ext="rb" />
+    </extensionMap>
+</filetype>
+
