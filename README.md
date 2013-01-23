@@ -9,10 +9,10 @@ Gives you:
 
 Installation:
 -------------
-* exit your IDEA IDE
+* exit your IDE
 * copy **ruby_chef_file.xml** into "[WinUserDir]/.WebIde[Version]/config/filetypes"
 * open file "[WinUserDir]/.WebIde[Version]/config/options/filetypes.xml" and copy the following lines in the \<extensionMap> element.
-* start your IDEA IDE
+* start your IDE
 
 ```xml
 <mapping ext="rb" type="ruby_chef_files" />
