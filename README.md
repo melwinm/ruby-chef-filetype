@@ -7,7 +7,7 @@ Gives you:
 * flat codecompletion (no structure logic)
 * tested with IDEA PHPStorm 5
 
-Installation
+Installation:
 -------------
 * exit your IDEA IDE
 * copy **ruby_chef_file.xml** into "[WinUserDir]/.WebIde[Version]/config/filetypes"
