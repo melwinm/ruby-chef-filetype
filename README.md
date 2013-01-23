@@ -1,11 +1,11 @@
-idea-ruby-chef-filetype
-=======================
+Ruby and Chef filetype for JetBrains IDE's
+==========================================
 
 Gives you:
 ----------
 * code highlighting 
 * flat codecompletion (no structure logic)
-* tested with IDEA PHPStorm 5
+* tested with JetBrains PHPStorm 5
 
 Installation:
 -------------
