@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<filetype binary="false" default_extension="" description="syntax highlighting for ruby chef files" name="ruby_chef_files">
+<filetype binary="false" default_extension="" description=" syntax highlighting for ruby chef files" name="ruby_chef_files">
     <highlighting>
         <options>
             <option name="LINE_COMMENT" value="#" />
@@ -47,6 +47,134 @@
             <keyword name="when" />
             <keyword name="while" />
             <keyword name="yield" />
+            <keyword name="define" />
+            <!-- Chef -->
+
+            <keyword name="include_recipe" />
+            <keyword name="include_attribute" />
+            <keyword name="default" />
+            <keyword name="node" />
+            <!-- Chef Resources -->
+            <keyword name="cookbook_file" />
+            <keyword name="cron" />
+            <keyword name="deploy" />
+            <keyword name="directory" />
+            <keyword name="env" />
+            <keyword name="erlang_call" />
+            <keyword name="execute" />
+            <keyword name="file" />
+            <keyword name="group" />
+            <keyword name="http_request" />
+            <keyword name="ifconfig" />
+            <keyword name="link" />
+            <keyword name="log" />
+            <keyword name="mdadm" />
+            <keyword name="mount" />
+            <keyword name="ohai" />
+            <keyword name="package" />
+            <keyword name="powershell_script" />
+            <keyword name="remote_directory" />
+            <keyword name="remote_file" />
+            <keyword name="route" />
+            <keyword name="ruby_block" />
+            <keyword name="scm" />
+            <keyword name="script" />
+            <keyword name="service" />
+            <keyword name="template" />
+            <keyword name="user" />
+            <keyword name="yum_package" />
+            <!-- Chef Provider -->
+            <keyword name="application" />
+            <keyword name="application_java_webapp" />
+            <keyword name="application_java_tomcat" />
+            <keyword name="application_nginx_load_balancer" />
+            <keyword name="application_php_mod_php_apache2" />
+            <keyword name="application_php_php" />
+            <keyword name="application_python_celery" />
+            <keyword name="application_python_django" />
+            <keyword name="application_python_gunicorn" />
+            <keyword name="application_ruby_memcached" />
+            <keyword name="application_ruby_passenger_apache2" />
+            <keyword name="application_ruby_rails" />
+            <keyword name="application_ruby_unicorn" />
+            <keyword name="apt_preference" />
+            <keyword name="apt_repository" />
+            <keyword name="aws_ebs_volume" />
+            <keyword name="aws_elastic_ip" />
+            <keyword name="aws_elastic_lb" />
+            <keyword name="aws_resource_tag" />
+            <keyword name="bluepill_service" />
+            <keyword name="chef_handler" />
+            <keyword name="daemontools_service" />
+            <keyword name="djbdns_rr" />
+            <keyword name="dmg_package" />
+            <keyword name="dynect_rr" />
+            <keyword name="firewall" />
+            <keyword name="firewall_rule" />
+            <keyword name="freebsd_port_options" />
+            <keyword name="gunicorn_config" />
+            <keyword name="gunicorn_install" />
+            <keyword name="homebrew" />
+            <keyword name="iis_app" />
+            <keyword name="iis_config" />
+            <keyword name="iis_pool" />
+            <keyword name="iis_site" />
+            <keyword name="maven" />
+            <keyword name="mysql_database" />
+            <keyword name="nagios_nrpecheck" />
+            <keyword name="pacman_aur" />
+            <keyword name="pacman_group" />
+            <keyword name="php_pear" />
+            <keyword name="php_pear_channel" />
+            <keyword name="powershell" />
+            <keyword name="python_pip" />
+            <keyword name="python_virtualenv" />
+            <keyword name="rabbitmq_plugin" />
+            <keyword name="rabbitmq_user" />
+            <keyword name="rabbitmq_vhost" />
+            <keyword name="riak_cluster" />
+            <keyword name="samba_user" />
+            <keyword name="sudo" />
+            <keyword name="supervisor_fcgi" />
+            <keyword name="supervisor_group" />
+            <keyword name="supervisor_service" />
+            <keyword name="transmission_torrent_file" />
+            <keyword name="users_manage" />
+            <keyword name="webpi_product" />
+            <keyword name="windows_auto_run" />
+            <keyword name="windows_batch" />
+            <keyword name="windows_feature" />
+            <keyword name="windows_package" />
+            <keyword name="windows_path" />
+            <keyword name="windows_reboot" />
+            <keyword name="windows_registry" />
+            <keyword name="windows_shortcut" />
+            <keyword name="windows_zipfile" />
+            <keyword name="yum_key" />
+            <keyword name="yum_repository" />
+            <keyword name="zenoss_zenbatchload" />
+            <keyword name="zenoss_zenmd" />
+            <keyword name="zenoss_zenpack" />
+            <keyword name="zenoss_zenpatch" />
+
+            <!-- Chef metadata.rb @todo move into an own filetype -->
+            <keyword name="attribute" />
+            <keyword name="conflicts" />
+            <keyword name="depends" />
+            <keyword name="description" />
+            <keyword name="grouping" />
+            <keyword name="licensing" />
+            <keyword name="long_description" />
+            <keyword name="maintainer" />
+            <keyword name="maintainer_email" />
+            <keyword name="name" />
+            <keyword name="provides" />
+            <keyword name="recipe" />
+            <keyword name="recommends" />
+            <keyword name="replaces" />
+            <keyword name="suggests" />
+            <keyword name="supports" />
+            <keyword name="version" />
         </keywords2>
         <keywords3>
             <keyword name="false" />
@@ -55,6 +183,15 @@
             <keyword name="or" />
             <keyword name="self" />
             <keyword name="true" />
+
+            <!-- Chef Common Resources -->
+            <keyword name="action" />
+            <keyword name="ignore_failure" />
+            <keyword name="provider" />
+            <keyword name="retries" />
+            <keyword name="retry_delay" />
+            <keyword name="supports" />
+
         </keywords3>
         <keywords4>
             <keyword name="__ENCODING__" />
